@@ -11,6 +11,7 @@
   inputs.src-manu-master.ref   = "refs/heads/master";
   inputs.src-manu-master.owner = "planetis-m";
   inputs.src-manu-master.repo  = "manu";
+  inputs.src-manu-master.dir   = "";
   inputs.src-manu-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
