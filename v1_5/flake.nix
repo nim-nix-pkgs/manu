@@ -11,7 +11,6 @@
   inputs.src-manu-v1_5.ref   = "refs/tags/v1.5";
   inputs.src-manu-v1_5.owner = "planetis-m";
   inputs.src-manu-v1_5.repo  = "manu";
-  inputs.src-manu-v1_5.dir   = "";
   inputs.src-manu-v1_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
